@@ -8,6 +8,10 @@ class Menu(models.Model):
     class meta:
         db_table = 'menus'
 
+
+
+
+
 class Category(models.Model):
     name = models.CharField(max_length=20)
     menu = models.ForeignKey('Menu', on_delete=models.CASCADE)
