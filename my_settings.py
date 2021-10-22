@@ -3,7 +3,7 @@
 DATABASES = {
     'default' : {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '26_westarbucks',
+        'NAME': 'weestarbucks',
         'USER': 'root',
         'PASSWORD': '1237',
         'HOST': '127.0.0.1',
